@@ -14,7 +14,7 @@ Based on our analysis of the election_results.csv, the election shows that.
 
 '''
 
-    'total_votes = total_votes + 1
+    total_votes = total_votes + 1
      
 '''
 
