@@ -61,8 +61,23 @@ The finding of the candidate results were conducted similary to the findings of 
 ## Summary
 Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
+This election audit was compiled to find election results for various counties and candidates in one congressional district. The code can be useful for various congressional elections just by making a few changes depending on the type of audit you want to run. If another election commision from a different district wants to find the same information with a similar csv file of data all that needs to be done is changing the data we are referencing in our script. In our current script we use the following code to reference our data sheet:
 
+'''
 
-1. change the file you are uploading by... to run the same script
-2. if you have another column of things you want to test for how to add add more variables. 
+    file_to_load = os.path.join("Resources", "election_results.csv")
+    
+'''
+All that would need to be changed would be the path to the file inside of the parenthesis and the results would be found for another district. It may also be beneficial to change the text file you are printing the results to but this is not necessary. 
 
+Another beneficial aspect of this code is that it can easily be modified in order to find the results of another variable as long as the data sheet provides that information. For example, if your data sheet had a column that provided political party information for each vote, you can change your variables to reference a different column and a list and number of votes for each different option will be listed. In order to do this you would just need to change the row you are referencing such as in our candidate analysis: 
+
+'''
+
+    candidate_name = row[2]
+    
+'''
+
+If we were referencing column 5, we would need to change our index to 4. You would then want to change your variable to match the situation for which you are testing. You could also just add this information if you did not want to rid of the other columns that are being tested for. 
+
+With so many possibilities for election audits in this script it is sure to be a beneficial tool in many upcoming congressional elections. 
