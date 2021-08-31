@@ -12,11 +12,13 @@ Election-Audit Results: Using a bulleted list, address the following election ou
 Based on our analysis of the election_results.csv, the election shows that.
 - There were 369,711 total votes cast in this congressional election. This was found by counting every row in our data sheet. To do this we put the following statement in our code beneath a for loop: 
 
-'''
-
-total_votes = total_votes + 1
 
 '''
+
+    'total_votes = total_votes + 1
+     
+'''
+
 
 - The county results were:
     - The counties that participated in the election were Jefferson, Denver, and Arapahoe.
