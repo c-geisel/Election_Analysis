@@ -24,7 +24,7 @@ Based on our analysis of the election_results.csv, the election shows that.
     - Jefferson county received 10.5% of the total votes with 38,855 votes cast. 
     - Denver county received 82.8% of the total votes with 306,055 votes cast.
     - Arapahoe recieved 6.7% of the total votes with 24,801 votes cast. 
-To find the county names and the total number of votes they recieved, first the county name was added to a county list if it was a new name that had not appeared in the list with the for loop that was looping through all rows in the data sheet. Outside of this if statment as we are still looping through all rows, everytime a candidate name is mentioned, the value associated with the name key is increased by one in the county votes dicitonary. 
+- To find the county names and the total number of votes they recieved, first the county name was added to a county list if it was a new name that had not appeared in the list with the for loop that was looping through all rows in the data sheet. Outside of this if statment as we are still looping through all rows, everytime a candidate name is mentioned, the value associated with the name key is increased by one in the county votes dicitonary. 
 
 '''
 
