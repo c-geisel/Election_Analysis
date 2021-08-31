@@ -3,7 +3,7 @@
 ## Project Overview
 A Colorado Board of Elections employee has asked us to complete an election audit to analyze the outcomes of a recent local election. In the audit, we are to calculate the total number of votes cast, find which candidates and counties received votes, calculate the total number of votes each candidate and county obtained, determine the percentage of the total votes each county and candidate received, find the county with the largest candidate turnout, and finally to decide upon the winning candidate based on the popular vote. 
 
-# Resources
+## Resources
 - Data Source: election_results.csv
 - Software: Python 3.8.8, Visual Studio Code, 1.59.1
 
@@ -24,7 +24,7 @@ Based on our analysis of the election_results.csv:
     - Jefferson county received 10.5% of the total votes with 38,855 votes cast. 
     - Denver county received 82.8% of the total votes with 306,055 votes cast.
     - Arapahoe received 6.7% of the total votes with 24,801 votes cast. 
-- To find the county names and the total number of votes they received, first the county name was added to a county list if it was a new name that had not appeared in the list. Outside of this if statement, every time a candidate name is mentioned, the value associated with the name key is increased by one in the county votes dictionary. 
+To find the county names and the total number of votes they received, first the county name was added to a county list if it was a new name that had not appeared in the list. Outside of this if statement, every time a candidate name is mentioned, the value associated with the name key is increased by one in the county votes dictionary. 
 
 '''
 
