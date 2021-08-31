@@ -56,7 +56,7 @@ The finding of the candidate results were conducted similary to the findings of 
 
 - The winner of the election was Diane Degette based off her winning the popular with 73.8% of votes and 272,892 votes cast for her. 
 - These results were summarized in a txt file to compile our findings. 
-- ![election_results_txt.png](analysis/election_results_txt.png)
+![election_results_txt.png](analysis/election_results_txt.png)
 
 ## Summary
 Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
